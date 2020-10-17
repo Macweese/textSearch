@@ -1,5 +1,5 @@
 # Text Searcher
-Simple tool written in java used to search a text for a specific keyword.
+Simple tool written in java used to search a text for a specific keyword or phrase.
 
 ## Functions
 - Search text for keyword/phrase (...search tool duh)
