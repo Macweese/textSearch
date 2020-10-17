@@ -1,19 +1,21 @@
 # Text Searcher
 Simple tool written in java used to search a text for a specific keyword.
 
-## Program Interface
-![Program Interface](https://i.imgur.com/tM7XvTb.png)
 ## Functions
 - Search text for keyword/phrase (...search tool duh)
 - Filter search by case sensitivity, distinguish between lower- and uppercase
 - Regex and only search for and within complete words
 - Intuitive and informative stats post operation
 
+## Program Interface
+![Program Interface](https://i.imgur.com/tM7XvTb.png)
+
+
 ## Case Sensitivity
 This option is set to false by default.
-False - will not differintiate between lower- and uppercase letters.
+- [ ] False - will not differintiate between lower- and uppercase letters.
 ###### Example searching for 'hello' in a text containing 'hELLo' will give a matching hit.
-True - will differintiate between lower- and uppercase letters.
+- [x] True - will differintiate between lower- and uppercase letters.
 ###### Example searching for "USA' in a text containing 'Usain Bolt' will NOT yield a matching result.
 ![Program Interface](https://i.imgur.com/x30E0oV.png)
 
@@ -21,8 +23,8 @@ True - will differintiate between lower- and uppercase letters.
 This option is set to false by default.
 The program will always give the number of times a searched term was found within a text according to the users' settings in a message box after executing.
 However, sometimes it can be nice to have a little more information.
-False - will not provide any additional stats beyond the default message popup.
-True - will print stats in the console for the user.
+- [ ] False - will not provide any additional stats beyond the default message popup.
+- [x] True - will print stats in the console for the user.
 <h6> Example
   The index of every matched entry within the searched text.<br>
   The body of text that was searched.<br>
@@ -37,9 +39,9 @@ True - will print stats in the console for the user.
 ## Regex
 This option is set to false by default so you can search long phrases or a sequence of words.
 
-False - will search the entire text for any match.
+- [ ] False - will search the entire text for any match.
 ###### Example searching for 'd s' with the regex option disabled in a text containing 'red sky' will yeild a matching result.
-True - will only search words and substrings of words.
+- [x] True - will only search words and substrings of words.
 ###### Example searching for 'd s' with the regex option enabled in a text containing 'red sky' will not yeild any matching results.
 ![Program Interface](https://i.imgur.com/AvWXVsi.png)
 
