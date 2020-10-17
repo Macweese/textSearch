@@ -44,8 +44,9 @@ This option is set to false by default so you can search long phrases or a seque
 - [ ] False - will search the entire text for any match.
 - [x] True - will only search words and substrings of words.
 <h6> Example<br>
-  Enabled - Searching for 'd s' with the regex option disabled in a text containing 'red sky' will yeild a matching result.<br>
-  Disabled - Searching for 'd s' with the regex option enabled in a text containing 'red sky' will not yeild any matching results.<br>
+  Disabled - Searching for 'd s' with the regex option disabled in a text containing 'red sky' will yeild a matching result.<br>
+  Enabled - Searching for 'd s' with the regex option enabled in a text containing 'red sky' will not yeild any matching results.<br>
+
 
 ![Program Interface](https://i.imgur.com/AvWXVsi.png)
 
