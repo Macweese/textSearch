@@ -14,8 +14,8 @@ Simple tool written in java used to search a text for a specific keyword.
 ## Case Sensitivity
 This option is set to false by default.
 - [ ] False - will not differintiate between lower- and uppercase letters.
-###### Example searching for 'hello' in a text containing 'hELLo' will give a matching hit.
 - [x] True - will differintiate between lower- and uppercase letters.
+###### Example searching for 'hello' in a text containing 'hELLo' will give a matching hit.
 ###### Example searching for "USA' in a text containing 'Usain Bolt' will NOT yield a matching result.
 ![Program Interface](https://i.imgur.com/x30E0oV.png)
 
@@ -40,8 +40,8 @@ However, sometimes it can be nice to have a little more information.
 This option is set to false by default so you can search long phrases or a sequence of words.
 
 - [ ] False - will search the entire text for any match.
-###### Example searching for 'd s' with the regex option disabled in a text containing 'red sky' will yeild a matching result.
 - [x] True - will only search words and substrings of words.
+###### Example searching for 'd s' with the regex option disabled in a text containing 'red sky' will yeild a matching result.
 ###### Example searching for 'd s' with the regex option enabled in a text containing 'red sky' will not yeild any matching results.
 ![Program Interface](https://i.imgur.com/AvWXVsi.png)
 
