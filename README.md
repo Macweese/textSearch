@@ -27,7 +27,7 @@ The program will always give the number of times a searched term was found withi
 However, sometimes it can be nice to have a little more information.
 - [ ] False - will not provide any additional stats beyond the default message popup.
 - [x] True - will print stats in the console for the user.
-<h6> Example
+<h6> Example<br>
   The index of every matched entry within the searched text.<br>
   The body of text that was searched.<br>
   The keyword that was searched.<br>
@@ -45,7 +45,7 @@ This option is set to false by default so you can search long phrases or a seque
 - [x] True - will only search words and substrings of words.
 <h6> Example<br>
   Enabled - Searching for 'd s' with the regex option disabled in a text containing 'red sky' will yeild a matching result.<br>
-  Disabled - Searching for 'd s' with the regex option enabled in a text containing 'red sky' will not yeild any matching results.
+  Disabled - Searching for 'd s' with the regex option enabled in a text containing 'red sky' will not yeild any matching results.<br>
 
 ![Program Interface](https://i.imgur.com/AvWXVsi.png)
 
